@@ -1,15 +1,14 @@
-mysql_proxy_statistic
+ï»¿mysql_proxy_statistic
 =====================
 
-¤ÀªR mysql-proxy log ªº query time
+åˆ†æž mysql-proxy log çš„ query time
 
-©Ò¨Ï¥Îªº module ¬° --proxy-lua-script=share/doc/mysql-proxy/tutorial-query-time.lua
-¨Ï¥Î¤è¦¡  
-
-bin/mysql-proxy --defaults-file mysql-proxy.ini \  
+æ‰€ä½¿ç”¨çš„ module ç‚º --proxy-lua-script=share/doc/mysql-proxy/tutorial-query-time.lua  
+ä½¿ç”¨æ–¹å¼  
+> bin/mysql-proxy --defaults-file mysql-proxy.ini \  
 --proxy-lua-script=share/doc/mysql-proxy/tutorial-query-time.lua | python log_stat.py  
 
-«ö Ctrl + C µ²§ô®É¦L¥X²Î­p¸ê®Æ
+æŒ‰ Ctrl + C çµæŸæ™‚å°å‡ºçµ±è¨ˆè³‡æ–™
 
 >
     Max
