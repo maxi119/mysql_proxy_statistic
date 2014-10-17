@@ -4,10 +4,10 @@ mysql_proxy_statistic
 分析 mysql-proxy log 的 query time
 
 所使用的 module 為 --proxy-lua-script=share/doc/mysql-proxy/tutorial-query-time.lua
-使用方式 
+使用方式  
 
-bin/mysql-proxy --defaults-file mysql-proxy.ini \
---proxy-lua-script=share/doc/mysql-proxy/tutorial-query-time.lua | python log_stat.py
+bin/mysql-proxy --defaults-file mysql-proxy.ini \  
+--proxy-lua-script=share/doc/mysql-proxy/tutorial-query-time.lua | python log_stat.py  
 
 按 Ctrl + C 結束時印出統計資料
 
